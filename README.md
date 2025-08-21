@@ -1,6 +1,6 @@
 # senSPure Viewer
 
-TOPPANのToFカメラ「senSPure」用のビューアアプリケーションです。
+TOPPAN senSPure ToFカメラ「senSPure」用のビューアアプリケーションです。
 深度データや点群データをリアルタイムで表示、記録することができます。
 
 ---
@@ -26,24 +26,34 @@ TOPPANのToFカメラ「senSPure」用のビューアアプリケーションで
 
 ---
 
+## セットアップ
+
+### Windows
+
+`windows_x64/sdk/` フォルダ内の `install_env_execute.bat` を実行し、セットアップを行ってください。
+
+### Linux (Ubuntu / Jetson)
+
+お使いの環境に対応するフォルダ（`ubuntu_x64/sdk/` または `jetson_arm64/sdk/`）に移動し、ターミナルで以下のコマンドを実行してください。
+
+```bash
+./install_env_execute.sh
+```
+
+
+
+---
+
 ## 使い方
 
 ### Windows
 
-1.  `windows_x64` フォルダ内の `install_env_execute.bat` を実行し、初回環境設定を行ってください。
-2.  `TOPPAN_ToF_Viewer.exe` をダブルクリックしてアプリケーションを起動します。
+`windows_x64/sdk/` フォルダ内の `TOPPAN_ToF_Viewer.exe` をダブルクリックしてアプリケーションを起動します。
 
 ### Linux (Ubuntu / Jetson)
 
-1.  お使いの環境に対応するフォルダ（`ubuntu_x64` または `jetson_arm64`）に移動します。
-2.  ターミナルで以下のコマンドを実行し、初回環境設定と実行権限の付与を行います。
+セットアップを行ったフォルダ内で、以下のコマンドを実行します。
 
-    ```bash
-    sh install_env_execute.sh
-    ```
-
-3.  以下のコマンドでアプリケーションを起動します。
-
-    ```bash
-    ./run.sh
-    
+```bash
+./run.sh
+```
