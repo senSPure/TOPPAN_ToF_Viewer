@@ -1,7 +1,7 @@
 # senSPure Viewer
 
 TOPPAN senSPure ToFカメラ「senSPure」用のビューアアプリケーションです。
-深度データや点群データをリアルタイムで表示、記録することができます。
+Depthデータや点群データをリアルタイムで表示、記録することができます。
 
 ---
 
@@ -26,34 +26,4 @@ TOPPAN senSPure ToFカメラ「senSPure」用のビューアアプリケーシ�
 
 ---
 
-## セットアップ
-
-### Windows
-
-`windows_x64/sdk/` フォルダ内の `install_env_execute.bat` を実行し、セットアップを行ってください。
-
-### Linux (Ubuntu / Jetson)
-
-お使いの環境に対応するフォルダ（`ubuntu_x64/sdk/` または `jetson_arm64/sdk/`）に移動し、ターミナルで以下のコマンドを実行してください。
-
-```bash
-./install_env_execute.sh
-```
-
-
-
----
-
-## 使い方
-
-### Windows
-
-`windows_x64/sdk/` フォルダ内の `TOPPAN_ToF_Viewer.exe` をダブルクリックしてアプリケーションを起動します。
-
-### Linux (Ubuntu / Jetson)
-
-セットアップを行ったフォルダ内で、以下のコマンドを実行します。
-
-```bash
-./run.sh
-```
+## Link
