@@ -1,9 +1,5 @@
 # senSPure Viewer
 
-```
-英語表記に直す
-```
-
 TOPPAN senSPure ToFカメラ「senSPure」用のビューアアプリケーションです。
 Depthデータや点群データをリアルタイムで表示、記録することができます。
 
