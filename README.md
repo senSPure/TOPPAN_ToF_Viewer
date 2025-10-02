@@ -1,4 +1,3 @@
-# test
 # *senSPure*&trade; SDK
 
 The *senSPure*&trade; SDK (Software Development Kit) is supported multiple operating systems, which facilitates application development.  
