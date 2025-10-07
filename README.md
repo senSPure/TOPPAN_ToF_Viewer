@@ -12,8 +12,8 @@ It provides the ToF Viewer as a sample code for evaluation and development. This
 * *senSPure*&trade; C11U
 
 # Release Notes
-* **Version 3.0.5 [July 4, 2025]**
-   * Fixed a bug related to point cloud conversion processing.
+* **Version 3.0.6 [October 7, 2025]**
+   * Initial Release.
 
 # Folder description
 * **windows_x64**
