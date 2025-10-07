@@ -6,7 +6,7 @@ It provides the ToF Viewer as a sample code for evaluation and development. This
 # Supported Platform
 * Windows: Windows 10/11
 * Linux: Ubuntu 20.04/22.04
-* NVIDIA Jetson: Jetpack 5.0.1/6.0
+* NVIDIA Jetson: Jetpack 5.x/6.x
 
 # Supported Devices
 * *senSPure*&trade; C11U
