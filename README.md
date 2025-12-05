@@ -12,8 +12,8 @@ It provides the ToF Viewer as a sample code for evaluation and development. This
 * *senSPure*&trade; C11U
 
 # Release Notes
-* **Version 3.0.6 [October 7, 2025]**
-   * Initial Release.
+* **Version 3.0.7 [December 5, 2025]**
+   * Fixed filter-related issues.
 
 # Folder description
 * **windows_x64**
